@@ -1,0 +1,38 @@
+.hero {
+	display: grid;
+	gap: 1rem;
+	padding: clamp(3rem, 8vw, 6rem) 1.5rem;
+	background: linear-gradient(135deg, var(--color-negro), var(--color-morado));
+	color: var(--color-hueso);
+}
+
+.hero__etiqueta {
+	margin: 0;
+	width: fit-content;
+	padding: 0.4rem 0.9rem;
+	border: 1px solid var(--color-naranja);
+	border-radius: 999px;
+	color: var(--color-naranja);
+	text-transform: uppercase;
+	letter-spacing: 0.18em;
+	font-size: 0.78rem;
+	font-weight: 700;
+}
+
+.hero__titulo {
+	margin: 0;
+	max-width: 12ch;
+	font-family: var(--fuente-display);
+	font-size: clamp(2.7rem, 8vw, 5.5rem);
+	line-height: 0.95;
+	color: var(--color-hueso);
+	text-wrap: balance;
+}
+
+.hero__texto {
+	margin: 0;
+	max-width: 42rem;
+	font-size: 1.05rem;
+	line-height: 1.7;
+	color: var(--color-hueso);
+}

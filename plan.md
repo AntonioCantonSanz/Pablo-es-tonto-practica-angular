@@ -40,7 +40,7 @@
   - Archivos afectados: `src/styles.css`, `src/index.html`
   - Hecho cuando: existen variables CSS para negro, naranja calabaza, morado y blanco hueso, las fuentes de Google Fonts están cargadas, siguiendo la skill de diseño y `ng build termina sin errores`.
 
-- [ ] Aplicar estilos de header y hero.
+- [x] Aplicar estilos de header y hero.
   - Archivos afectados: `src/app/header/header.css`, `src/app/hero/hero.css`
   - Hecho cuando: los CSS solo usan las variables de la paleta, sin colores escritos a mano, el texto cumple un contraste mínimo de 4,5:1, siguiendo la skill de diseño y `ng build termina sin errores`.
 

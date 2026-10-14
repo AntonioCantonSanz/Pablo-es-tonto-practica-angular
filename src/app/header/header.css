@@ -1,0 +1,56 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1.5rem;
+	padding: 1.25rem 1.5rem;
+	background: var(--color-negro);
+	color: var(--color-hueso);
+	border-bottom: 1px solid var(--color-morado);
+}
+
+.header__marca {
+	display: grid;
+	gap: 0.25rem;
+}
+
+.header__subtitulo {
+	margin: 0;
+	color: var(--color-naranja);
+	text-transform: uppercase;
+	letter-spacing: 0.18em;
+	font-size: 0.72rem;
+	font-weight: 700;
+}
+
+.header__titulo {
+	margin: 0;
+	color: var(--color-hueso);
+	font-family: var(--fuente-display);
+	font-size: clamp(2rem, 4vw, 3rem);
+	line-height: 1;
+}
+
+.header__nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 0.75rem;
+}
+
+.header__enlace {
+	color: var(--color-hueso);
+	text-decoration: none;
+	font-weight: 700;
+	padding: 0.65rem 1rem;
+	border: 1px solid var(--color-morado);
+	border-radius: 999px;
+	background: var(--color-negro);
+}
+
+.header__enlace:hover,
+.header__enlace:focus-visible {
+	color: var(--color-negro);
+	background: var(--color-naranja);
+	border-color: var(--color-naranja);
+}
