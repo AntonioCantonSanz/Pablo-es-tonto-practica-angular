@@ -28,7 +28,7 @@
   - Archivos afectados: `src/app/header/header.html`, `src/app/header/header.ts`, `src/app/hero/hero.html`, `src/app/listado/listado.html`
   - Hecho cuando: `hero` y `listado` tienen un `id`, cada enlace del menú lleva a su sección, el encabezado muestra el nombre del ciclo y `ng build termina sin errores`.
 
-- [ ] Redactar el contenido del hero.
+- [x] Redactar el contenido del hero.
   - Archivos afectados: `src/app/hero/hero.html`, `src/app/hero/hero.ts`
   - Hecho cuando: el hero presenta el título principal y el texto de presentación del ciclo, y `ng build termina sin errores`.
 
