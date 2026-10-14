@@ -24,7 +24,7 @@
   - Archivos afectados: `src/app/listado/listado.html`, `src/app/listado/listado.ts`
   - Hecho cuando: `listado` recorre el array con `@for` y `track`, `listado.ts` importa el componente `tarjeta`, pasa los datos correctos a la tarjeta y `ng build termina sin errores`.
 
-- [ ] Redactar el contenido del header con nombre y menú con anclas.
+- [x] Redactar el contenido del header con nombre y menú con anclas.
   - Archivos afectados: `src/app/header/header.html`, `src/app/header/header.ts`, `src/app/hero/hero.html`, `src/app/listado/listado.html`
   - Hecho cuando: `hero` y `listado` tienen un `id`, cada enlace del menú lleva a su sección, el encabezado muestra el nombre del ciclo y `ng build termina sin errores`.
 
