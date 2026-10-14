@@ -56,6 +56,6 @@
   - Archivos afectados: revisión sobre los archivos ya tocados
   - Hecho cuando: `ng build termina sin errores`, `ng serve` arranca correctamente y la consola del navegador no muestra errores.
 
-- [ ] Redactar la documentación final en Markdown.
+- [x] Redactar la documentación final en Markdown.
   - Archivos afectados: `DOCUMENTACION.md`
   - Hecho cuando: la documentación resume la estructura, el estilo visual y las decisiones clave, y `ng build termina sin errores`.
