@@ -41,3 +41,6 @@ Corrección: (rellenar, incluidos los cambios que hagáis a mano)
 Prompt: Lee AGENTS.md y plan.md. Ejecuta únicamente la primera tarea pendiente. Al terminar, ejecuta ng build, marca la casilla y resume qué archivos has creado o modificado. No avances a la siguiente tarea.
 Resultado: creó los 5 componentes standalone con el CLI (sin tests), ng build sin errores, marcó la tarea 1 y no avanzó.
 Corrección: ninguna en el código. El CLI pidió confirmar las estadísticas de uso en una terminal oculta y hubo que responder a mano.
+
+## Prompt 6 - 
+Prompt: Lee AGENTS.md y plan.md. Ejecuta únicamente la primera tarea pendiente. Al terminar, ejecuta ng build, marca la casilla y resume qué archivos has creado o modificado. No avances a la siguiente tarea.

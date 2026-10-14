@@ -4,11 +4,11 @@
   - Archivos afectados: `src/app/header/*`, `src/app/hero/*`, `src/app/listado/*`, `src/app/tarjeta/*`, `src/app/footer/*`
   - Hecho cuando: existen los cinco componentes standalone con sus archivos `.ts`, `.html` y `.css`, no contienen lógica de presentación todavía y `ng build termina sin errores`.
 
-- [ ] Integrarlos en `app.html` en el orden `header`, `hero`, `listado`, `footer`.
+- [x] Integrarlos en `app.html` en el orden `header`, `hero`, `listado`, `footer`.
   - Archivos afectados: `src/app/app.html`, `src/app/app.ts`
   - Hecho cuando: la página renderiza los cuatro bloques en ese orden, cada selector está colocado en la plantilla principal y `ng build termina sin errores`.
 
-- [ ] Definir la interfaz `Pelicula` y el array de 6 películas.
+- [x] Definir la interfaz `Pelicula` y el array de 6 películas.
   - Archivos afectados: `src/app/listado/listado.ts`
   - Hecho cuando: existe la interfaz `Pelicula`, el array incluye 6 películas con todos sus campos completos y `ng build termina sin errores`.
 
