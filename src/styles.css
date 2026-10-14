@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+	--color-negro: #0b0b0f;
+	--color-naranja: #ff6a00;
+	--color-morado: #6b21a8;
+	--color-hueso: #f5f1e8;
+	--fuente-display: 'Creepster', cursive;
+	--fuente-texto: 'Inter', system-ui, sans-serif;
+}
+
+html {
+	color-scheme: dark;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	background:
+		radial-gradient(circle at top, rgba(107, 33, 168, 0.22), transparent 35%),
+		linear-gradient(180deg, #111117 0%, var(--color-negro) 100%);
+	color: var(--color-hueso);
+	font-family: var(--fuente-texto);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}

@@ -36,7 +36,7 @@
   - Archivos afectados: `src/app/footer/footer.html`, `src/app/footer/footer.ts`
   - Hecho cuando: el footer muestra los nombres de los dos miembros de la pareja y el nombre del ciclo, y `ng build termina sin errores`.
 
-- [ ] Definir estilos globales con variables de paleta y fuentes de Google Fonts.
+- [x] Definir estilos globales con variables de paleta y fuentes de Google Fonts.
   - Archivos afectados: `src/styles.css`, `src/index.html`
   - Hecho cuando: existen variables CSS para negro, naranja calabaza, morado y blanco hueso, las fuentes de Google Fonts están cargadas, siguiendo la skill de diseño y `ng build termina sin errores`.
 
