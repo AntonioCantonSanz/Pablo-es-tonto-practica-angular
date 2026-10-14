@@ -52,7 +52,7 @@
   - Archivos afectados: `src/app/hero/hero.css`, `src/app/listado/listado.css`, `src/app/tarjeta/tarjeta.css`, `src/app/header/header.css`, `src/app/footer/footer.css`
   - Hecho cuando: a 375 px de ancho no hay scroll horizontal, las tarjetas se apilan o reordenan sin solaparse, siguiendo la skill de diseño y `ng build termina sin errores`.
 
-- [ ] Comprobar el resultado final con `ng serve` y la consola del navegador.
+- [x] Comprobar el resultado final con `ng serve` y la consola del navegador.
   - Archivos afectados: revisión sobre los archivos ya tocados
   - Hecho cuando: `ng build termina sin errores`, `ng serve` arranca correctamente y la consola del navegador no muestra errores.
 
