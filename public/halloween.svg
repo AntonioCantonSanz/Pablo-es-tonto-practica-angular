@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Halloween placeholder</title>
+  <desc id="desc">Cartel SVG de sustitución para Halloween</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0b0f" />
+      <stop offset="100%" stop-color="#14213d" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)" />
+  <circle cx="300" cy="240" r="140" fill="#ff6a00" opacity="0.2" />
+  <path d="M300 150 L370 260 L510 290 L410 390 L435 530 L300 460 L165 530 L190 390 L90 290 L230 260 Z" fill="#ff6a00" opacity="0.8" />
+  <text x="300" y="760" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="middle">HALLOWEEN</text>
+  <text x="300" y="805" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" opacity="0.85">Placeholder SVG</text>
+</svg>

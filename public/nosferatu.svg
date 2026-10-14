@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Nosferatu placeholder</title>
+  <desc id="desc">Cartel SVG de sustitución para Nosferatu</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0b0f" />
+      <stop offset="100%" stop-color="#2a1038" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)" />
+  <circle cx="300" cy="210" r="92" fill="#6b21a8" opacity="0.35" />
+  <path d="M165 640 L300 300 L435 640 Z" fill="#ff6a00" opacity="0.85" />
+  <rect x="120" y="675" width="360" height="34" rx="17" fill="#ff6a00" opacity="0.2" />
+  <text x="300" y="760" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="middle">NOSFERATU</text>
+  <text x="300" y="805" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" opacity="0.85">Placeholder SVG</text>
+</svg>

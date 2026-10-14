@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Pesadilla en Elm Street placeholder</title>
+  <desc id="desc">Cartel SVG de sustitución para Pesadilla en Elm Street</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b0f" />
+      <stop offset="100%" stop-color="#2b1d4f" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)" />
+  <path d="M120 600 C210 460 390 460 480 600" fill="none" stroke="#ff6a00" stroke-width="18" stroke-linecap="round" />
+  <path d="M160 540 C220 500 380 500 440 540" fill="none" stroke="#f5f1e8" stroke-width="10" stroke-linecap="round" opacity="0.55" />
+  <path d="M220 300 L300 210 L380 300 L300 390 Z" fill="#6b21a8" opacity="0.9" />
+  <text x="300" y="760" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">PESADILLA EN ELM STREET</text>
+  <text x="300" y="805" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" opacity="0.85">Placeholder SVG</text>
+</svg>

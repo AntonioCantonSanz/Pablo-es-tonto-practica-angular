@@ -12,7 +12,7 @@
   - Archivos afectados: `src/app/listado/listado.ts`
   - Hecho cuando: existe la interfaz `Pelicula`, el array incluye 6 películas con todos sus campos completos y `ng build termina sin errores`.
 
-- [ ] Añadir las imágenes de las películas en `public/`.
+- [x] Añadir las imágenes de las películas en `public/`.
   - Archivos afectados: `public/`
   - Hecho cuando: las 6 imágenes son placeholders SVG creados por el agente, existe un archivo por cada película con nombre coincidente con el campo `imagen` del array, no hay enlaces rotos y `ng build termina sin errores`.
 
