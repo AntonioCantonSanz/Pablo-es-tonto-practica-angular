@@ -1,0 +1,21 @@
+.footer {
+	display: grid;
+	gap: 0.4rem;
+	padding: 1.5rem;
+	text-align: center;
+	background: var(--color-negro);
+	color: var(--color-hueso);
+	border-top: 1px solid var(--color-morado);
+}
+
+.footer__nombre {
+	margin: 0;
+	color: var(--color-naranja);
+	font-weight: 700;
+	letter-spacing: 0.04em;
+}
+
+.footer__texto {
+	margin: 0;
+	color: var(--color-hueso);
+}

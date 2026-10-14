@@ -44,7 +44,7 @@
   - Archivos afectados: `src/app/header/header.css`, `src/app/hero/hero.css`
   - Hecho cuando: los CSS solo usan las variables de la paleta, sin colores escritos a mano, el texto cumple un contraste mínimo de 4,5:1, siguiendo la skill de diseño y `ng build termina sin errores`.
 
-- [ ] Aplicar estilos de listado, tarjeta y footer.
+- [x] Aplicar estilos de listado, tarjeta y footer.
   - Archivos afectados: `src/app/listado/listado.css`, `src/app/tarjeta/tarjeta.css`, `src/app/footer/footer.css`
   - Hecho cuando: los CSS solo usan las variables de la paleta, sin colores escritos a mano, el texto cumple un contraste mínimo de 4,5:1, siguiendo la skill de diseño y `ng build termina sin errores`.
 

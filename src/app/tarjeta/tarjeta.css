@@ -1,0 +1,53 @@
+:host {
+	display: block;
+}
+
+.tarjeta {
+	display: grid;
+	gap: 1rem;
+	height: 100%;
+	padding: 1rem;
+	border: 1px solid var(--color-morado);
+	border-radius: 1.25rem;
+	background: var(--color-negro);
+	color: var(--color-hueso);
+}
+
+.tarjeta__imagen {
+	width: 100%;
+	aspect-ratio: 2 / 3;
+	object-fit: cover;
+	border-radius: 0.9rem;
+	border: 1px solid var(--color-morado);
+	background: var(--color-morado);
+}
+
+.tarjeta__contenido {
+	display: grid;
+	gap: 0.6rem;
+}
+
+.tarjeta__titulo {
+	margin: 0;
+	color: var(--color-hueso);
+	font-family: var(--fuente-display);
+	font-size: 1.8rem;
+	line-height: 1;
+}
+
+.tarjeta__dato,
+.tarjeta__sinopsis,
+.tarjeta__sesion {
+	margin: 0;
+	color: var(--color-hueso);
+	line-height: 1.6;
+}
+
+.tarjeta__dato,
+.tarjeta__sesion {
+	font-weight: 700;
+}
+
+.tarjeta__sesion {
+	color: var(--color-naranja);
+}
