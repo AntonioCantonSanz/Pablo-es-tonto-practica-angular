@@ -1,1 +1,10 @@
-<p>tarjeta works!</p>
+<article class="tarjeta">
+	<img class="tarjeta__imagen" [src]="pelicula.imagen" [alt]="pelicula.titulo" />
+	<div class="tarjeta__contenido">
+		<h3 class="tarjeta__titulo">{{ pelicula.titulo }}</h3>
+		<p class="tarjeta__dato">{{ pelicula.anio }} · {{ pelicula.director }}</p>
+		<p class="tarjeta__dato">{{ pelicula.subgenero }}</p>
+		<p class="tarjeta__sinopsis">{{ pelicula.sinopsis }}</p>
+		<p class="tarjeta__sesion">{{ pelicula.sesion }}</p>
+	</div>
+</article>

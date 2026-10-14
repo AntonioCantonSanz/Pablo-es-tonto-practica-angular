@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { type Pelicula } from '../listado/listado';
 
 @Component({
   imports: [],
@@ -6,4 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './tarjeta.css',
   templateUrl: './tarjeta.html',
 })
-export class Tarjeta {}
+export class Tarjeta {
+  @Input({ required: true })
+  pelicula!: Pelicula;
+}

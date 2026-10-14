@@ -16,7 +16,7 @@
   - Archivos afectados: `public/`
   - Hecho cuando: las 6 imágenes son placeholders SVG creados por el agente, existe un archivo por cada película con nombre coincidente con el campo `imagen` del array, no hay enlaces rotos y `ng build termina sin errores`.
 
-- [ ] Crear la tarjeta con `@Input()` e interpolación `{{ }}`.
+- [x] Crear la tarjeta con `@Input()` e interpolación `{{ }}`.
   - Archivos afectados: `src/app/tarjeta/tarjeta.ts`, `src/app/tarjeta/tarjeta.html`
   - Hecho cuando: la tarjeta recibe una película por `@Input()`, muestra sus datos con interpolación y `ng build termina sin errores`.
 
