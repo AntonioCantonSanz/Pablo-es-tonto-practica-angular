@@ -32,7 +32,7 @@
   - Archivos afectados: `src/app/hero/hero.html`, `src/app/hero/hero.ts`
   - Hecho cuando: el hero presenta el título principal y el texto de presentación del ciclo, y `ng build termina sin errores`.
 
-- [ ] Redactar el contenido del footer.
+- [x] Redactar el contenido del footer.
   - Archivos afectados: `src/app/footer/footer.html`, `src/app/footer/footer.ts`
   - Hecho cuando: el footer muestra los nombres de los dos miembros de la pareja y el nombre del ciclo, y `ng build termina sin errores`.
 
