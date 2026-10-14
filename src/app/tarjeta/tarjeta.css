@@ -51,3 +51,20 @@
 .tarjeta__sesion {
 	color: var(--color-naranja);
 }
+
+@media (max-width: 480px) {
+	.tarjeta {
+		padding: 0.9rem;
+		border-radius: 1rem;
+	}
+
+	.tarjeta__titulo {
+		font-size: 1.55rem;
+	}
+
+	.tarjeta__dato,
+	.tarjeta__sinopsis,
+	.tarjeta__sesion {
+		font-size: 0.98rem;
+	}
+}

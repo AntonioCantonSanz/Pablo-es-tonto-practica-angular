@@ -19,3 +19,14 @@
 	margin: 0;
 	color: var(--color-hueso);
 }
+
+@media (max-width: 480px) {
+	.footer {
+		padding: 1.25rem 1rem;
+	}
+
+	.footer__nombre,
+	.footer__texto {
+		font-size: 0.95rem;
+	}
+}

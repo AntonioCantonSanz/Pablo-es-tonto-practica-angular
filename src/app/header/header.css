@@ -54,3 +54,21 @@
 	background: var(--color-naranja);
 	border-color: var(--color-naranja);
 }
+
+@media (max-width: 480px) {
+	.header {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 1rem;
+	}
+
+	.header__nav {
+		justify-content: flex-start;
+		width: 100%;
+	}
+
+	.header__enlace {
+		flex: 1 1 8rem;
+		text-align: center;
+	}
+}

@@ -48,7 +48,7 @@
   - Archivos afectados: `src/app/listado/listado.css`, `src/app/tarjeta/tarjeta.css`, `src/app/footer/footer.css`
   - Hecho cuando: los CSS solo usan las variables de la paleta, sin colores escritos a mano, el texto cumple un contraste mínimo de 4,5:1, siguiendo la skill de diseño y `ng build termina sin errores`.
 
-- [ ] Ajustar el responsive.
+- [x] Ajustar el responsive.
   - Archivos afectados: `src/app/hero/hero.css`, `src/app/listado/listado.css`, `src/app/tarjeta/tarjeta.css`, `src/app/header/header.css`, `src/app/footer/footer.css`
   - Hecho cuando: a 375 px de ancho no hay scroll horizontal, las tarjetas se apilan o reordenan sin solaparse, siguiendo la skill de diseño y `ng build termina sin errores`.
 
