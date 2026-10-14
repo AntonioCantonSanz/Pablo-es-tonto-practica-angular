@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Tarjeta } from '../tarjeta/tarjeta';
 
 export interface Pelicula {
   id: number;
@@ -81,9 +82,11 @@ export const peliculas: Pelicula[] = [
 ];
 
 @Component({
-  imports: [],
+  imports: [Tarjeta],
   selector: 'app-listado',
   styleUrl: './listado.css',
   templateUrl: './listado.html',
 })
-export class Listado {}
+export class Listado {
+  protected readonly peliculas = peliculas;
+}

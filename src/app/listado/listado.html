@@ -1,1 +1,5 @@
-<p>listado works!</p>
+<section class="listado">
+	@for (pelicula of peliculas; track pelicula.id) {
+		<app-tarjeta [pelicula]="pelicula"></app-tarjeta>
+	}
+</section>

@@ -20,7 +20,7 @@
   - Archivos afectados: `src/app/tarjeta/tarjeta.ts`, `src/app/tarjeta/tarjeta.html`
   - Hecho cuando: la tarjeta recibe una película por `@Input()`, muestra sus datos con interpolación y `ng build termina sin errores`.
 
-- [ ] Repetir las películas en `listado` con `@for` y `track`.
+- [x] Repetir las películas en `listado` con `@for` y `track`.
   - Archivos afectados: `src/app/listado/listado.html`, `src/app/listado/listado.ts`
   - Hecho cuando: `listado` recorre el array con `@for` y `track`, `listado.ts` importa el componente `tarjeta`, pasa los datos correctos a la tarjeta y `ng build termina sin errores`.
 
