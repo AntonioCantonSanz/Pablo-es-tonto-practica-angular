@@ -1,57 +1,36 @@
-# Documentación final
+# Documentación del proyecto
 
-## Proyecto
-Esta aplicación es una web de una sola página sobre un ciclo de cine de terror. El objetivo es presentar una cartelera temática con una identidad visual oscura, clara y coherente en móvil y escritorio.
+## Resumen del proyecto
+**Noches de Pesadilla** es una aplicación web de una sola página dedicada a un ciclo de cine de terror. Presenta la programación de seis películas mediante una cartelera temática. Está desarrollada con Angular y componentes standalone, sin backend ni navegación por rutas.
 
-## Estructura
-La aplicación se organiza en cinco componentes standalone:
+## Estructura de componentes
+La plantilla principal, `src/app/app.html`, organiza los componentes en este orden:
 
-- `app-header`: nombre del ciclo y menú de navegación.
-- `app-hero`: presentación principal de la propuesta.
-- `app-listado`: recoge los datos de las películas y genera la lista.
-- `app-tarjeta`: muestra cada película como una ficha individual.
-- `app-footer`: autoría y datos de contacto.
-
-La página principal monta estos bloques en este orden: header, hero, listado y footer.
+1. `app-header` (`src/app/header/`): muestra el nombre del ciclo y enlaces de navegación a las secciones.
+2. `app-hero` (`src/app/hero/`): presenta el título y la introducción del ciclo.
+3. `app-listado` (`src/app/listado/`): contiene los datos de las películas y los recorre con `@for`.
+4. `app-tarjeta` (`src/app/tarjeta/`): muestra la información de una película. Recibe cada objeto desde el listado mediante `@Input()` y presenta sus campos con interpolación.
+5. `app-footer` (`src/app/footer/`): cierra la página con la autoría y el nombre del ciclo.
 
 ## Datos de la cartelera
-La cartelera se define en `src/app/listado/listado.ts` mediante una interfaz `Pelicula` y un array con 6 títulos clásicos del cine de terror. Cada elemento incluye:
+La interfaz `Pelicula` y el array de películas están definidos en `src/app/listado/listado.ts`. La cartelera incluye seis clásicos de terror: *Nosferatu*, *Psicosis*, *El Exorcista*, *Halloween*, *Pesadilla en Elm Street* y *El Resplandor*.
 
-- identificador
-- título
-- año
-- director
-- subgénero
-- sinopsis
-- imagen
-- sesión
-
-Las imágenes se guardan en `public/` como placeholders SVG con el mismo nombre que el campo `imagen`.
+Cada película contiene un identificador, título, año, director, subgénero, sinopsis, nombre de imagen y horario de sesión. Las imágenes son placeholders SVG locales guardados en `public/`, con nombres que coinciden con el campo `imagen`.
 
 ## Estilo visual
-El diseño usa una paleta fija basada en:
+La identidad visual busca una atmósfera nocturna y cinematográfica. La paleta global, definida en `src/styles.css`, combina negro (`#0b0b0f`), naranja calabaza (`#ff6a00`), morado (`#6b21a8`) y blanco hueso (`#f5f1e8`). Se utilizan las fuentes de Google Fonts Creepster para los títulos e Inter para el texto general.
 
-- negro profundo
-- naranja calabaza
-- morado
-- blanco hueso
+Los fondos oscuros, los acentos de color y las tarjetas diferenciadas dan protagonismo a la cartelera y mantienen la lectura clara.
 
-También utiliza dos tipografías de Google Fonts:
-
-- una display para títulos
-- una legible para el contenido general
-
-La interfaz busca un ambiente nocturno con fondos oscuros, contrastes altos, tarjetas con presencia cinematográfica y composición pensada para lectura rápida.
-
-## Responsive
-El layout está preparado para funcionar en escritorio y móvil. En pantallas pequeñas, los bloques se apilan y las tarjetas ocupan una sola columna para evitar scroll horizontal.
+## Diseño responsive
+La página adapta su distribución a móviles y escritorio. En pantallas pequeñas, las películas se presentan en una sola columna y los componentes ajustan su disposición y tipografía para evitar solapamientos y scroll horizontal. El diseño se comprobó tomando como referencia un ancho de 375 px.
 
 ## Comprobaciones
-Durante el desarrollo se verificó que:
+Al finalizar el desarrollo se comprobó que:
 
 - `ng build` termina sin errores.
 - `ng serve` arranca correctamente.
 - La consola del navegador no muestra errores de ejecución.
 
 ## Autoría
-Antonio Cantón y Pablo Enrique
+Proyecto realizado por **Antonio Cantón y Pablo Enrique**.
